@@ -1,0 +1,54 @@
+body {
+    align-items: center;
+    background-color: beige;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 90%;
+    max-width: 500px;
+    background-color: white;
+    text-align: center;
+    border: #0000EE;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+.todo-list {
+    background-color: #eaf7ea;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    padding-bottom: 2px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.todo-list label {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.sub-item {
+    list-style-type: square;
+    margin-left: 20px;
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+label input[type="checkbox"] {
+    margin-right: 10px;
+}
